@@ -27,7 +27,7 @@ Welcome to Locations, a social media MERN stack website where users can seamless
 
 ## Learning Reference
 
-Check out this [YouTube tutorial]([https://www.youtube.com/watch?v=VAaUy_Moivw&list=PLsueIvUqU7XrQVvqejWDyu3gUj_i2EEXR&index=4&t=3242s&ab_channel=React%26NextjsProjectswithSahand](https://www.youtube.com/watch?v=VsUzmlZfYNg&list=PLsueIvUqU7XrQVvqejWDyu3gUj_i2EEXR&index=2&t=23773s&ab_channel=JavaScriptMastery)https://www.youtube.com/watch?v=VsUzmlZfYNg&list=PLsueIvUqU7XrQVvqejWDyu3gUj_i2EEXR&index=2&t=23773s&ab_channel=JavaScriptMastery) for a hands-on guide to building social media applications with MERN stack.
+Check out this [YouTube tutorial](https://www.youtube.com/watch?v=VsUzmlZfYNg&list=PLsueIvUqU7XrQVvqejWDyu3gUj_i2EEXR&index=2&t=23773s&ab_channel=JavaScriptMastery) for a hands-on guide to building social media applications with MERN stack.
 
 ## Changes Made
 
