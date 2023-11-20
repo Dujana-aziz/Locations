@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "serv": "nodemon index.js",
+    "serv": "nodemon index.js"
     // "build": "npm install && npm run build --prefix client"
   },
   "keywords": [],
