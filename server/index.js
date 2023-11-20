@@ -5,6 +5,7 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import postRoutes from './routes/posts.js'
 import userRouter from './routes/users.js'
+const path = require('path')
 
 const app = express()
 dotenv.config()
@@ -28,3 +29,10 @@ mongoose
     )
   )
   .catch((error) => console.log(`${error} did not connect`))
+
+const __dirname = path.resolve()
+
+app.use(express.static(path.join(__dirname, 'client/build')))
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build/index.html'))
+})
