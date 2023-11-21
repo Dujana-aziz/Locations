@@ -10,13 +10,29 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 50px',
+    // Media query for smaller screens
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column', // Stack elements vertically on smaller screens
+      alignItems: 'center', // Center align items on smaller screens
+      padding: '10px', // Adjust padding for smaller screens
+    },
   },
   heading: {
     color: 'rgba(0,183,255, 1)',
     textDecoration: 'none',
   },
   image: {
-    marginLeft: '15px',
+    height: '120px',
+    // Responsive styling for the image
+    [theme.breakpoints.down('sm')]: {
+      height: '80px',
+    },
+  },
+  logo: {
+    // Responsive styling for the image
+    [theme.breakpoints.down('sm')]: {
+      height: '70px',
+    },
   },
   toolbar: {
     display: 'flex',
@@ -27,6 +43,11 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'space-between',
     width: '400px',
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column', // Stack elements vertically on smaller screens
+      alignItems: 'center', // Center align items on smaller screens
+      padding: '10px', // Adjust padding for smaller screens
+    },
   },
   userName: {
     display: 'flex',
@@ -39,5 +60,11 @@ export default makeStyles((theme) => ({
   purple: {
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: deepPurple[500],
+  },
+  button: {
+    // Add any specific styling for the button
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '10px', // Add space above the button on smaller screens
+    },
   },
 }))

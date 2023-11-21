@@ -41,17 +41,17 @@ const Navbar = () => {
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
         <img
+          className={classes.image}
           component={Link}
           to="/"
           src={memoriesText}
           alt="icon"
-          height="120px"
         />
         <img
-          className={classes.image}
+          className={classes.logo}
           src={memoriesLogo}
           alt="icon"
-          height="90px"
+          height="90px !importent"
         />
       </Link>
       <Toolbar className={classes.toolbar}>
