@@ -1,3 +1,8 @@
+## Disclaimer
+
+- The deloyed website is based on free subscriptions therefore it is very slow in fetching or posting data ( please deal with patience).
+- The app is not responsive currently
+
 # Locations - Social Media MERN Stack Website
 
 ## Overview
@@ -33,7 +38,5 @@ Check out this [YouTube tutorial](https://www.youtube.com/watch?v=VsUzmlZfYNg&li
 
 - No changes made yet.
 
-## Disclaimer
 
-- The deloyed website is based on free subscriptions therefore it is very slow in fetching or posting data ( please deal with patience).
 
